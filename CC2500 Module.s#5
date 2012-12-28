@@ -5090,6 +5090,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="48.26" y="68.58" size="1.778" layer="95"/>
 <wire x1="63.5" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-7.62" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -5132,6 +5136,10 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="63.5" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="-7.62" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RF_GDO2" class="0">

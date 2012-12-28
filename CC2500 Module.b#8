@@ -132,6 +132,8 @@
 <text x="3.81" y="4.318" size="1.778" layer="21" font="vector" ratio="15">2. +3.3v</text>
 <text x="3.81" y="2.286" size="1.778" layer="21" font="vector" ratio="15">1. GND</text>
 <text x="36.195" y="0.762" size="1.778" layer="21" font="vector" ratio="15">1</text>
+<text x="29.21" y="18.288" size="1.524" layer="21" font="vector" ratio="15">C TLA 2013</text>
+<circle x="29.718" y="19.05" radius="1.135921875" width="0.3048" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun">

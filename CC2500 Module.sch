@@ -5045,9 +5045,9 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100R"/>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330R"/>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC1" library="chipcon-ti" deviceset="CC2500" device=""/>
+<part name="IC1" library="Taylor" deviceset="CC2500" device=""/>
 <part name="U$22" library="taylor" deviceset="ANTENNA_DIPOLE" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>

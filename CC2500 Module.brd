@@ -22,10 +22,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="15" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="15" fill="5" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -326,14 +326,6 @@ chip</description>
 <smd name="P$2" x="-0.25" y="-16.4" dx="0.28" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$1" x="0.25" y="-16.4" dx="0.28" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 </package>
-</packages>
-</library>
-<library name="chipcon-ti">
-<description>&lt;B&gt;Chipcon / Texas-Instruments RF  Devices&lt;/b&gt;&lt;p&gt;
-&lt;B&gt; The Devices for ISM 2,4GHz, and 300MHz ... 1000MHz &lt;/b&gt;&lt;p&gt;
-http://www.ti.com&lt;p&gt;
-&lt;author&gt;Created by  S.Hofmann  mc_sho@gmx.de&lt;/author&gt;</description>
-<packages>
 <package name="QLP-20">
 <description>QFN50P400X400X95-21N</description>
 <wire x1="-2" y1="1.4" x2="-2" y2="1.8" width="0.254" layer="21"/>
@@ -1658,8 +1650,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R13" library="SparkFun" package="0402-RES" value="100R" x="39.116" y="11.3665" rot="R270"/>
-<element name="IC1" library="chipcon-ti" package="QLP-20" value="CC2500" x="23.876" y="9.144" rot="R90"/>
+<element name="R13" library="SparkFun" package="0402-RES" value="330R" x="39.116" y="11.3665" rot="R270"/>
+<element name="IC1" library="taylor" package="QLP-20" value="CC2500" x="23.876" y="9.144" rot="R90"/>
 <element name="U$22" library="taylor" package="CC2500_FOLDED_DIPOLE_ANTENNA" value="ANTENNA_DIPOLE" x="24.13" y="27.94"/>
 <element name="U$23" library="taylor" package="5X3.2MM_SMD_XTAL" value="7A-26.000MAAJ-T" x="29.972" y="9.779" rot="R270"/>
 <element name="C_P17" library="taylor" package="0603-CAP" value="18p" x="33.02" y="8.255" rot="R180"/>
