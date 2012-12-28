@@ -11,3 +11,7 @@ Feel free to fork this and add changes as necessary. I'll license this with the 
 http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
 That said, if you do actually sell these, I wouldn't *mind* a kickback. But I won't require one, because that's annoying.
+
+CC2500 footprint came from https://github.com/chiengineer/Eagle-Libraries/blob/master/Wireless/chipcon-ti.lbr though I modified it significantly.
+
+Library used here is now https://github.com/tlalexander/Taylors-Eagle-Library, and also probably some parts from Sparkfun.
